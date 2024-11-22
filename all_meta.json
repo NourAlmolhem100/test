@@ -1,0 +1,2934 @@
+{
+    "languages": null,
+    "filetype": "pdf",
+    "pdf_toc": [],
+    "pages": 258,
+    "ocr_stats": {
+        "ocr_pages": 258,
+        "ocr_failed": 0,
+        "ocr_success": 258,
+        "ocr_engine": "surya"
+    },
+    "block_stats": {
+        "header_footer": 0,
+        "code": 1,
+        "table": 80,
+        "equations": {
+            "successful_ocr": 0,
+            "unsuccessful_ocr": 0,
+            "equations": 0
+        }
+    },
+    "computed_toc": [
+        {
+            "title": "Table of contents",
+            "level": 1,
+            "page": 1
+        },
+        {
+            "title": "Introduction",
+            "level": 1,
+            "page": 2
+        },
+        {
+            "title": "Understanding Fragmentation",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Bin Packing: Addressing GPU Fragmentation",
+            "level": 1,
+            "page": 3
+        },
+        {
+            "title": "Consolidation: Addressing Node Fragmentation",
+            "level": 1,
+            "page": 4
+        },
+        {
+            "title": "Applicability to Batch Jobs",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "Time Limits for Interactive Workloads",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Idle Detection and Termination",
+            "level": 1,
+            "page": 5
+        },
+        {
+            "title": "Considerations and Recommendations",
+            "level": 2,
+            "page": 5
+        },
+        {
+            "title": "Conclusion",
+            "level": 2,
+            "page": 6
+        },
+        {
+            "title": "About Run:ai",
+            "level": 1,
+            "page": 6
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 8
+        },
+        {
+            "title": "Introduction",
+            "level": 2,
+            "page": 10
+        },
+        {
+            "title": "Data preprocessing",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "Dataset: The Pile",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "Data Locality",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "Cluster preparation",
+            "level": 2,
+            "page": 11
+        },
+        {
+            "title": "Run:ai and Kubernetes",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "Bare-metal",
+            "level": 4,
+            "page": 11
+        },
+        {
+            "title": "Benchmarking setup",
+            "level": 1,
+            "page": 12
+        },
+        {
+            "title": "Throughput calculation",
+            "level": 4,
+            "page": 12
+        },
+        {
+            "title": "Results",
+            "level": 2,
+            "page": 13
+        },
+        {
+            "title": "01. Tokens Per Second",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "02. Linear Factor",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "03. Perfect Linear Scale",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "04. The Difference (Diff.)",
+            "level": 4,
+            "page": 13
+        },
+        {
+            "title": "Conclusion",
+            "level": 2,
+            "page": 18
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 20
+        },
+        {
+            "title": "Table of contents",
+            "level": 1,
+            "page": 21
+        },
+        {
+            "title": "Introduction",
+            "level": 2,
+            "page": 22
+        },
+        {
+            "title": "Data preprocessing",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "Dataset: The Pile",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "Data Locality",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "Cluster preparation",
+            "level": 2,
+            "page": 23
+        },
+        {
+            "title": "Run:ai and Kubernetes",
+            "level": 4,
+            "page": 23
+        },
+        {
+            "title": "Benchmarking setup",
+            "level": 1,
+            "page": 24
+        },
+        {
+            "title": "Throughput calculation",
+            "level": 4,
+            "page": 24
+        },
+        {
+            "title": "Results",
+            "level": 2,
+            "page": 25
+        },
+        {
+            "title": "Conclusion",
+            "level": 2,
+            "page": 27
+        },
+        {
+            "title": "Table of contents",
+            "level": 1,
+            "page": 29
+        },
+        {
+            "title": "Introduction",
+            "level": 2,
+            "page": 30
+        },
+        {
+            "title": "Understanding Containers",
+            "level": 2,
+            "page": 31
+        },
+        {
+            "title": "Understanding Containers",
+            "level": 4,
+            "page": 31
+        },
+        {
+            "title": "Building Docker Images with Dockerfiles",
+            "level": 4,
+            "page": 31
+        },
+        {
+            "title": "Understand ENTRYPOINT and CMD",
+            "level": 4,
+            "page": 31
+        },
+        {
+            "title": "Working with Kubernetes and Docker",
+            "level": 4,
+            "page": 31
+        },
+        {
+            "title": "Best Practices",
+            "level": 2,
+            "page": 32
+        },
+        {
+            "title": "Utilize Existing Images",
+            "level": 4,
+            "page": 32
+        },
+        {
+            "title": "2 Optimize Tagging Strategy",
+            "level": 4,
+            "page": 32
+        },
+        {
+            "title": "3  Choose a Building Approach",
+            "level": 4,
+            "page": 32
+        },
+        {
+            "title": "4 ) Cross-Platform Considerations",
+            "level": 4,
+            "page": 32
+        },
+        {
+            "title": "5 Optimize Layers for Faster Build Times",
+            "level": 4,
+            "page": 32
+        },
+        {
+            "title": "6 Prioritize Efficiency",
+            "level": 4,
+            "page": 32
+        },
+        {
+            "title": "7 Create Customized Containers",
+            "level": 4,
+            "page": 32
+        },
+        {
+            "title": "8 ) Use Environment Variables and Arguments",
+            "level": 4,
+            "page": 32
+        },
+        {
+            "title": "9 Leverage Versioning",
+            "level": 4,
+            "page": 33
+        },
+        {
+            "title": "10) Automate Building Process",
+            "level": 4,
+            "page": 33
+        },
+        {
+            "title": "11 Optimize Container Size",
+            "level": 4,
+            "page": 33
+        },
+        {
+            "title": "Conclusion",
+            "level": 1,
+            "page": 33
+        },
+        {
+            "title": "The Best GPU for Deep Learning\n\n![34_image_0.png](34_image_0.png)\n\n",
+            "level": 1,
+            "page": 34
+        },
+        {
+            "title": "Critical Considerations for Large-Scale AI",
+            "level": 1,
+            "page": 34
+        },
+        {
+            "title": "In this guide, you will learn:",
+            "level": 1,
+            "page": 35
+        },
+        {
+            "title": "Why Are GPUs Important",
+            "level": 1,
+            "page": 36
+        },
+        {
+            "title": "in Deep Learninq?",
+            "level": 1,
+            "page": 36
+        },
+        {
+            "title": "How to Choose the Best",
+            "level": 1,
+            "page": 36
+        },
+        {
+            "title": "GPU for Deep Learning?",
+            "level": 1,
+            "page": 36
+        },
+        {
+            "title": "GPU Factors to Consider",
+            "level": 4,
+            "page": 36
+        },
+        {
+            "title": "Ability to Interconnect GPUs",
+            "level": 4,
+            "page": 36
+        },
+        {
+            "title": "Supporting Software",
+            "level": 4,
+            "page": 36
+        },
+        {
+            "title": "Licensing",
+            "level": 4,
+            "page": 36
+        },
+        {
+            "title": "Algorithm Factors Affective GPU Use",
+            "level": 4,
+            "page": 36
+        },
+        {
+            "title": "Using Consumer GPUs",
+            "level": 1,
+            "page": 37
+        },
+        {
+            "title": "for Deep Learning",
+            "level": 2,
+            "page": 37
+        },
+        {
+            "title": "NVIDIA Titan V",
+            "level": 4,
+            "page": 37
+        },
+        {
+            "title": "NVIDIA Titan RTX",
+            "level": 4,
+            "page": 37
+        },
+        {
+            "title": "NVIDIA GeForce RTX 2080 Ti",
+            "level": 4,
+            "page": 37
+        },
+        {
+            "title": "Best Deep Learning GPUs",
+            "level": 2,
+            "page": 38
+        },
+        {
+            "title": "for Large-Scale Projects",
+            "level": 2,
+            "page": 38
+        },
+        {
+            "title": "and Data Centers",
+            "level": 1,
+            "page": 38
+        },
+        {
+            "title": "NVIDIA Tesla A100",
+            "level": 4,
+            "page": 38
+        },
+        {
+            "title": "NVIDIA Tesla V100",
+            "level": 4,
+            "page": 38
+        },
+        {
+            "title": "NVIDIA Tesla P100",
+            "level": 4,
+            "page": 38
+        },
+        {
+            "title": "NVIDIA Tesla K80",
+            "level": 4,
+            "page": 38
+        },
+        {
+            "title": "Google TPU",
+            "level": 4,
+            "page": 38
+        },
+        {
+            "title": "DGX for Deep Learning at Scale",
+            "level": 1,
+            "page": 39
+        },
+        {
+            "title": "DGX-1",
+            "level": 4,
+            "page": 39
+        },
+        {
+            "title": "Each DGX-1 provides:",
+            "level": 4,
+            "page": 39
+        },
+        {
+            "title": "DGX-2",
+            "level": 4,
+            "page": 40
+        },
+        {
+            "title": "Each DGX-2 provides:",
+            "level": 4,
+            "page": 40
+        },
+        {
+            "title": "DGX A100",
+            "level": 4,
+            "page": 40
+        },
+        {
+            "title": "Each DGX A100 provides:",
+            "level": 4,
+            "page": 40
+        },
+        {
+            "title": "Automated Deep Learning",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "GPU Manaqement With",
+            "level": 2,
+            "page": 41
+        },
+        {
+            "title": "Run:ai",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "See Our Additional Guides",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "on Key Artificial Intelliqence",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "Infrastructure Topics",
+            "level": 1,
+            "page": 41
+        },
+        {
+            "title": "MLOps",
+            "level": 4,
+            "page": 41
+        },
+        {
+            "title": "See top articles in our MLOps guide:",
+            "level": 4,
+            "page": 41
+        },
+        {
+            "title": "Kubernetes and Al",
+            "level": 4,
+            "page": 41
+        },
+        {
+            "title": "The Complete Guide to Machine\nLearning Operations (MLOps)",
+            "level": 1,
+            "page": 42
+        },
+        {
+            "title": "This Guide Covers:",
+            "level": 1,
+            "page": 43
+        },
+        {
+            "title": "Machine Learning Ops:",
+            "level": 1,
+            "page": 43
+        },
+        {
+            "title": "ML Infrastructure:",
+            "level": 2,
+            "page": 43
+        },
+        {
+            "title": "ML Automation:",
+            "level": 2,
+            "page": 43
+        },
+        {
+            "title": "ML Workflows:",
+            "level": 2,
+            "page": 43
+        },
+        {
+            "title": "Machine Learning",
+            "level": 1,
+            "page": 44
+        },
+        {
+            "title": "Operations:",
+            "level": 1,
+            "page": 44
+        },
+        {
+            "title": "What is it? Why do we need it?",
+            "level": 2,
+            "page": 44
+        },
+        {
+            "title": "MLOps: Getting from Science",
+            "level": 1,
+            "page": 44
+        },
+        {
+            "title": "to Production",
+            "level": 2,
+            "page": 44
+        },
+        {
+            "title": "Why is MLOps Important?",
+            "level": 2,
+            "page": 45
+        },
+        {
+            "title": "Closing the Loop with ",
+            "level": 2,
+            "page": 45
+        },
+        {
+            "title": "Machine Learning Operations ",
+            "level": 2,
+            "page": 45
+        },
+        {
+            "title": "Machine Learning Infrastructure",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "Components of Effective",
+            "level": 2,
+            "page": 46
+        },
+        {
+            "title": "Pipelines",
+            "level": 2,
+            "page": 46
+        },
+        {
+            "title": "What Is Machine Learning",
+            "level": 1,
+            "page": 46
+        },
+        {
+            "title": "Infrastructure?",
+            "level": 2,
+            "page": 46
+        },
+        {
+            "title": "Machine Learninq",
+            "level": 2,
+            "page": 47
+        },
+        {
+            "title": "Infrastructure Development:",
+            "level": 2,
+            "page": 47
+        },
+        {
+            "title": "The Building Blocks",
+            "level": 2,
+            "page": 47
+        },
+        {
+            "title": "Model Selection",
+            "level": 4,
+            "page": 47
+        },
+        {
+            "title": "Data Ingestion",
+            "level": 4,
+            "page": 47
+        },
+        {
+            "title": "ML Pipelines Automation",
+            "level": 4,
+            "page": 47
+        },
+        {
+            "title": "Visualization and Monitoring",
+            "level": 4,
+            "page": 47
+        },
+        {
+            "title": "Model Testing",
+            "level": 4,
+            "page": 47
+        },
+        {
+            "title": "Deployment",
+            "level": 4,
+            "page": 47
+        },
+        {
+            "title": "Inference",
+            "level": 4,
+            "page": 48
+        },
+        {
+            "title": "Key Considerations for",
+            "level": 2,
+            "page": 48
+        },
+        {
+            "title": "Infrastructure that Supports ML",
+            "level": 2,
+            "page": 48
+        },
+        {
+            "title": "Location",
+            "level": 4,
+            "page": 48
+        },
+        {
+            "title": "Compute Requirements",
+            "level": 4,
+            "page": 48
+        },
+        {
+            "title": "Network Infrastructure",
+            "level": 4,
+            "page": 48
+        },
+        {
+            "title": "Storage Infrastructure",
+            "level": 4,
+            "page": 48
+        },
+        {
+            "title": "Data Center Extension",
+            "level": 4,
+            "page": 49
+        },
+        {
+            "title": "Security",
+            "level": 4,
+            "page": 49
+        },
+        {
+            "title": "Machine Learning Automation",
+            "level": 1,
+            "page": 49
+        },
+        {
+            "title": "Speeding Up the Data Science",
+            "level": 2,
+            "page": 49
+        },
+        {
+            "title": "Pipeline",
+            "level": 2,
+            "page": 49
+        },
+        {
+            "title": "What Is AutoML?",
+            "level": 2,
+            "page": 50
+        },
+        {
+            "title": "Challenqes of Machine",
+            "level": 2,
+            "page": 50
+        },
+        {
+            "title": "Learning Pipelines: The Need",
+            "level": 2,
+            "page": 50
+        },
+        {
+            "title": "for AutoML",
+            "level": 2,
+            "page": 50
+        },
+        {
+            "title": "Why is Automated Machine",
+            "level": 2,
+            "page": 50
+        },
+        {
+            "title": "Learning Important?",
+            "level": 2,
+            "page": 50
+        },
+        {
+            "title": "What Tasks Should You",
+            "level": 2,
+            "page": 50
+        },
+        {
+            "title": "Automate?",
+            "level": 2,
+            "page": 50
+        },
+        {
+            "title": "Hyperparameter Optimization",
+            "level": 4,
+            "page": 50
+        },
+        {
+            "title": "Model Selection",
+            "level": 4,
+            "page": 50
+        },
+        {
+            "title": "Feature Selection",
+            "level": 2,
+            "page": 51
+        },
+        {
+            "title": "Data Preprocessing",
+            "level": 4,
+            "page": 51
+        },
+        {
+            "title": "Transfer Learning and Pre-Trained Models ",
+            "level": 4,
+            "page": 51
+        },
+        {
+            "title": "Search for Network Architecture",
+            "level": 4,
+            "page": 51
+        },
+        {
+            "title": "Machine Learning Workflow",
+            "level": 1,
+            "page": 52
+        },
+        {
+            "title": "Streamlining Your ML Pipeline",
+            "level": 1,
+            "page": 52
+        },
+        {
+            "title": "Data Pre-Processing",
+            "level": 4,
+            "page": 52
+        },
+        {
+            "title": "Building Datasets",
+            "level": 4,
+            "page": 52
+        },
+        {
+            "title": "Understanding the Machine",
+            "level": 2,
+            "page": 52
+        },
+        {
+            "title": "Learning Workflow",
+            "level": 2,
+            "page": 52
+        },
+        {
+            "title": "Gathering Machine Learning Data",
+            "level": 4,
+            "page": 52
+        },
+        {
+            "title": "Training and Refinement",
+            "level": 4,
+            "page": 52
+        },
+        {
+            "title": "Machine Learning Evaluation",
+            "level": 4,
+            "page": 53
+        },
+        {
+            "title": "Machine Learning Best Practices\nfor Efficient Workflows",
+            "level": 2,
+            "page": 53
+        },
+        {
+            "title": "Define the Project",
+            "level": 4,
+            "page": 53
+        },
+        {
+            "title": "Find an Approach that Works",
+            "level": 4,
+            "page": 53
+        },
+        {
+            "title": "Build a Full-Scale Solution",
+            "level": 4,
+            "page": 53
+        },
+        {
+            "title": "Automating Machine Learning Workflows",
+            "level": 1,
+            "page": 54
+        },
+        {
+            "title": "What is Automated Machine",
+            "level": 2,
+            "page": 54
+        },
+        {
+            "title": "Learning?",
+            "level": 2,
+            "page": 54
+        },
+        {
+            "title": "What Can You Automate?",
+            "level": 2,
+            "page": 54
+        },
+        {
+            "title": "MLOps With Run:ai",
+            "level": 2,
+            "page": 54
+        },
+        {
+            "title": "Deep Learning with Multiple GPUs\n\n![55_image_0.png](55_image_0.png)\n\n",
+            "level": 1,
+            "page": 55
+        },
+        {
+            "title": "How to Use Multiple GPUs for Deep Learning",
+            "level": 1,
+            "page": 55
+        },
+        {
+            "title": "In this guide, you will learn:",
+            "level": 1,
+            "page": 56
+        },
+        {
+            "title": "Multi GPU Deep Learning Strateqies",
+            "level": 1,
+            "page": 57
+        },
+        {
+            "title": "Model Parallelism",
+            "level": 4,
+            "page": 57
+        },
+        {
+            "title": "Data Parallelism",
+            "level": 4,
+            "page": 57
+        },
+        {
+            "title": "How Does Usina Multiple",
+            "level": 1,
+            "page": 58
+        },
+        {
+            "title": "GPUs Work in Common\nDeep Learning Frameworks?",
+            "level": 1,
+            "page": 58
+        },
+        {
+            "title": "TensorFlow",
+            "level": 4,
+            "page": 58
+        },
+        {
+            "title": "PyTorch",
+            "level": 4,
+            "page": 58
+        },
+        {
+            "title": "Multi GPU Deployment",
+            "level": 1,
+            "page": 59
+        },
+        {
+            "title": "Models",
+            "level": 1,
+            "page": 59
+        },
+        {
+            "title": "GPU Server",
+            "level": 4,
+            "page": 59
+        },
+        {
+            "title": "GPU Cluster",
+            "level": 4,
+            "page": 59
+        },
+        {
+            "title": "GPU Cluster",
+            "level": 4,
+            "page": 59
+        },
+        {
+            "title": "Using Multiple GPUs with Run:ai",
+            "level": 4,
+            "page": 59
+        },
+        {
+            "title": "Table of contents",
+            "level": 1,
+            "page": 61
+        },
+        {
+            "title": "Introduction",
+            "level": 2,
+            "page": 62
+        },
+        {
+            "title": "Fractional GPU with static memory allocation",
+            "level": 2,
+            "page": 62
+        },
+        {
+            "title": "Fractional GPU with dynamic memory allocation",
+            "level": 2,
+            "page": 63
+        },
+        {
+            "title": "Resolving memory collisions",
+            "level": 2,
+            "page": 63
+        },
+        {
+            "title": "Benefits of Dynamic GPU Memory",
+            "level": 2,
+            "page": 64
+        },
+        {
+            "title": "Implementation in Kubernetes",
+            "level": 2,
+            "page": 64
+        },
+        {
+            "title": "Conclusion",
+            "level": 2,
+            "page": 65
+        },
+        {
+            "title": "About Run:ai",
+            "level": 1,
+            "page": 65
+        },
+        {
+            "title": "run:\n\n![66_image_0.png](66_image_0.png)\n\n\na 1",
+            "level": 1,
+            "page": 66
+        },
+        {
+            "title": "The Essential Guide:\nMachine Scheduling for\nAI Workloads on GPUs",
+            "level": 1,
+            "page": 66
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 66
+        },
+        {
+            "title": "Contents",
+            "level": 1,
+            "page": 67
+        },
+        {
+            "title": "Deep Learning Meets the Enterprise",
+            "level": 2,
+            "page": 68
+        },
+        {
+            "title": "DEEP LEARNING # SOFTWARE ENGINEERING",
+            "level": 4,
+            "page": 69
+        },
+        {
+            "title": "IT AND DATA SCIENCE ARE NOT YET ALIGNED",
+            "level": 4,
+            "page": 70
+        },
+        {
+            "title": "WHAT ABOUT KUBERNETES?",
+            "level": 4,
+            "page": 71
+        },
+        {
+            "title": "The Run:AI Solution – Simplifying GPU Management and Machine\nScheduling",
+            "level": 4,
+            "page": 71
+        },
+        {
+            "title": "DATA SCIENCE WORKFLOWS: TWO PROFILES",
+            "level": 4,
+            "page": 72
+        },
+        {
+            "title": "THE RUN:AI SCHEDULER",
+            "level": 4,
+            "page": 73
+        },
+        {
+            "title": "FIXED AND GUARANTEED QUOTAS",
+            "level": 4,
+            "page": 73
+        },
+        {
+            "title": "SUSAN NEEDS MORE COMPUTE",
+            "level": 4,
+            "page": 75
+        },
+        {
+            "title": "WHAT HAPPENS WHEN OTHER RESEARCHERS ENTER THE PICTURE?",
+            "level": 4,
+            "page": 76
+        },
+        {
+            "title": "Run:AI in Action - Case Study",
+            "level": 2,
+            "page": 77
+        },
+        {
+            "title": "INCREASING UTILIZATION AND SPEEDING UP\nEXPERIMENTS WITH RUN:AI",
+            "level": 4,
+            "page": 78
+        },
+        {
+            "title": " Now...",
+            "level": 4,
+            "page": 78
+        },
+        {
+            "title": "Conclusion",
+            "level": 2,
+            "page": 79
+        },
+        {
+            "title": "The Executive's Guide to LLMs:\nOpen-Source vs Proprietary",
+            "level": 2,
+            "page": 81
+        },
+        {
+            "title": "The Evolution of Al Models: A Brief Overview",
+            "level": 2,
+            "page": 82
+        },
+        {
+            "title": "Key Open-Source Al Model Providers",
+            "level": 2,
+            "page": 82
+        },
+        {
+            "title": "Meta (LLaMA Series)",
+            "level": 3,
+            "page": 82
+        },
+        {
+            "title": "Mistral",
+            "level": 4,
+            "page": 82
+        },
+        {
+            "title": "Cohere for Al",
+            "level": 2,
+            "page": 83
+        },
+        {
+            "title": "Stability Al (Stable Diffusion)",
+            "level": 2,
+            "page": 83
+        },
+        {
+            "title": "Key Proprietary Al Model Providers",
+            "level": 1,
+            "page": 83
+        },
+        {
+            "title": "OpenAl (GPT Models)",
+            "level": 2,
+            "page": 83
+        },
+        {
+            "title": "Google (Gemini Models)",
+            "level": 2,
+            "page": 83
+        },
+        {
+            "title": "Other Proprietary Providers:",
+            "level": 3,
+            "page": 83
+        },
+        {
+            "title": "Open-Source Models: Control, Flexibility, and Cost Efficiency",
+            "level": 2,
+            "page": 84
+        },
+        {
+            "title": "Reframing the Question, \"Which model should I choose?\"",
+            "level": 2,
+            "page": 85
+        },
+        {
+            "title": "As you evaluate the right fit for your enterprise, keep in mind:",
+            "level": 1,
+            "page": 86
+        },
+        {
+            "title": "Looking Ahead",
+            "level": 2,
+            "page": 87
+        },
+        {
+            "title": "Cool Vendors in Enterprise Al Operationalization and\nEngineering",
+            "level": 1,
+            "page": 88
+        },
+        {
+            "title": "Overview",
+            "level": 2,
+            "page": 88
+        },
+        {
+            "title": "Key Findings",
+            "level": 2,
+            "page": 88
+        },
+        {
+            "title": "Recommendations",
+            "level": 2,
+            "page": 88
+        },
+        {
+            "title": "Strategic Planning Assumptions",
+            "level": 1,
+            "page": 89
+        },
+        {
+            "title": "Analysis",
+            "level": 2,
+            "page": 89
+        },
+        {
+            "title": "What You Need to Know",
+            "level": 2,
+            "page": 89
+        },
+        {
+            "title": "Al Orchestration Platforms",
+            "level": 2,
+            "page": 91
+        },
+        {
+            "title": "Ascend.io",
+            "level": 3,
+            "page": 92
+        },
+        {
+            "title": "Who Should Care:",
+            "level": 4,
+            "page": 94
+        },
+        {
+            "title": "run:\n\n![100_image_0.png](100_image_0.png)\n\n\na 1",
+            "level": 1,
+            "page": 100
+        },
+        {
+            "title": "E-book:\nImprove GPU Utilization\nAutomate GPU Scheduling to Maximize\nResources",
+            "level": 1,
+            "page": 100
+        },
+        {
+            "title": "Abstract",
+            "level": 2,
+            "page": 100
+        },
+        {
+            "title": "Contents",
+            "level": 1,
+            "page": 101
+        },
+        {
+            "title": "Deep Learning Meets the Enterprise",
+            "level": 2,
+            "page": 102
+        },
+        {
+            "title": "DEEP LEARNING # SOFTWARE ENGINEERING",
+            "level": 4,
+            "page": 103
+        },
+        {
+            "title": "IT AND DATA SCIENCE ARE NOT YET ALIGNED",
+            "level": 4,
+            "page": 104
+        },
+        {
+            "title": "WHAT ABOUT KUBERNETES?",
+            "level": 4,
+            "page": 105
+        },
+        {
+            "title": "The Run:AI Solution – Simplifying GPU Management and Machine\nScheduling",
+            "level": 4,
+            "page": 105
+        },
+        {
+            "title": "DATA SCIENCE WORKFLOWS: TWO PROFILES",
+            "level": 4,
+            "page": 106
+        },
+        {
+            "title": "THE RUN:AI SCHEDULER",
+            "level": 4,
+            "page": 107
+        },
+        {
+            "title": "FIXED AND GUARANTEED QUOTAS",
+            "level": 4,
+            "page": 107
+        },
+        {
+            "title": "SUSAN NEEDS MORE COMPUTE",
+            "level": 4,
+            "page": 109
+        },
+        {
+            "title": "WHAT HAPPENS WHEN OTHER RESEARCHERS ENTER THE PICTURE?",
+            "level": 4,
+            "page": 110
+        },
+        {
+            "title": "Run:AI in Action - Case Study",
+            "level": 2,
+            "page": 111
+        },
+        {
+            "title": "INCREASING UTILIZATION AND SPEEDING UP\nEXPERIMENTS WITH RUN:AI",
+            "level": 4,
+            "page": 112
+        },
+        {
+            "title": " Now...",
+            "level": 4,
+            "page": 112
+        },
+        {
+            "title": "Conclusion",
+            "level": 2,
+            "page": 113
+        },
+        {
+            "title": "Table of contents",
+            "level": 1,
+            "page": 115
+        },
+        {
+            "title": "Introduction",
+            "level": 2,
+            "page": 116
+        },
+        {
+            "title": "The Challenge with Kubernetes CPU Scheduling",
+            "level": 2,
+            "page": 117
+        },
+        {
+            "title": "Static Quotas and Efficiency",
+            "level": 4,
+            "page": 117
+        },
+        {
+            "title": "Limitations in Advanced Scheduling Strategies",
+            "level": 4,
+            "page": 117
+        },
+        {
+            "title": "Gaps in Handling Batch Distributed Computing Workloads",
+            "level": 4,
+            "page": 117
+        },
+        {
+            "title": "Introducing Run:ai's CPU Scheduling Solution",
+            "level": 1,
+            "page": 118
+        },
+        {
+            "title": "Dynamic Quotas for Enhanced Productivity",
+            "level": 1,
+            "page": 118
+        },
+        {
+            "title": "Multilayered Fairness and Hierarchical Resource Sharing",
+            "level": 1,
+            "page": 118
+        },
+        {
+            "title": "Multilayered Fairness and Hierarchical Resource Sharing",
+            "level": 2,
+            "page": 118
+        },
+        {
+            "title": "Unlocking the Benefits: Improved Resource Utilization\nand User Productivity",
+            "level": 2,
+            "page": 119
+        },
+        {
+            "title": "Higher Productivity",
+            "level": 4,
+            "page": 119
+        },
+        {
+            "title": "Reduced Dependency on IT",
+            "level": 4,
+            "page": 119
+        },
+        {
+            "title": "4 Single Software Stack",
+            "level": 4,
+            "page": 119
+        },
+        {
+            "title": "Fair and Equitable Resource Allocation",
+            "level": 4,
+            "page": 119
+        },
+        {
+            "title": "6 ) Efficient Distributed Computing",
+            "level": 4,
+            "page": 119
+        },
+        {
+            "title": "Visibility into Infrastructure Resources",
+            "level": 4,
+            "page": 119
+        },
+        {
+            "title": "Conclusion",
+            "level": 2,
+            "page": 120
+        },
+        {
+            "title": "About Run:ai",
+            "level": 1,
+            "page": 120
+        },
+        {
+            "title": "Table of contents",
+            "level": 1,
+            "page": 122
+        },
+        {
+            "title": "The Challenges of Scheduling Al\nWorkloads on Kubernetes",
+            "level": 1,
+            "page": 123
+        },
+        {
+            "title": "Kubernetes Scheduling Basics",
+            "level": 2,
+            "page": 124
+        },
+        {
+            "title": "What's Missing?",
+            "level": 4,
+            "page": 124
+        },
+        {
+            "title": "Scale-out vs. Scale-up Architecture",
+            "level": 1,
+            "page": 124
+        },
+        {
+            "title": "What is a Hyperscale System?",
+            "level": 4,
+            "page": 124
+        },
+        {
+            "title": "Scheduling for Hyperscale Systems",
+            "level": 4,
+            "page": 124
+        },
+        {
+            "title": "What is a High-Performance System?",
+            "level": 4,
+            "page": 125
+        },
+        {
+            "title": "Scheduling for High-Performance Systems",
+            "level": 4,
+            "page": 125
+        },
+        {
+            "title": "Batch Scheduling Explained",
+            "level": 1,
+            "page": 125
+        },
+        {
+            "title": "What is Topology Awareness?",
+            "level": 1,
+            "page": 126
+        },
+        {
+            "title": "Gang Scheduling",
+            "level": 2,
+            "page": 127
+        },
+        {
+            "title": "Kubernetes Scheduling with Run:Al",
+            "level": 2,
+            "page": 127
+        },
+        {
+            "title": "See Our Additional Guides on Key Artificial\nIntelligence Infrastructure Topics",
+            "level": 2,
+            "page": 127
+        },
+        {
+            "title": "GPUs for Deep Learning",
+            "level": 2,
+            "page": 128
+        },
+        {
+            "title": "MLOps",
+            "level": 2,
+            "page": 128
+        },
+        {
+            "title": "About Run:ai",
+            "level": 1,
+            "page": 128
+        },
+        {
+            "title": "Kubernetes for\nMLOps Engineers",
+            "level": 1,
+            "page": 129
+        },
+        {
+            "title": "Kubernetes Architecture for Data Science\nWorkloads",
+            "level": 1,
+            "page": 129
+        },
+        {
+            "title": "Kubernetes Overview",
+            "level": 4,
+            "page": 130
+        },
+        {
+            "title": "Kubernetes Architecture",
+            "level": 4,
+            "page": 130
+        },
+        {
+            "title": "How Kubernetes Addresses Data Science Challenges",
+            "level": 4,
+            "page": 131
+        },
+        {
+            "title": "Considerations for Successful Kubernetes Architecture for AI Workloads",
+            "level": 2,
+            "page": 132
+        },
+        {
+            "title": "KUBERNETES MONITORING",
+            "level": 4,
+            "page": 132
+        },
+        {
+            "title": "The Challenges of Scheduling AI Workloads on\nKubernetes",
+            "level": 1,
+            "page": 133
+        },
+        {
+            "title": "Kubernetes Scheduling Basics",
+            "level": 4,
+            "page": 133
+        },
+        {
+            "title": "WHAT'S MISSING?",
+            "level": 4,
+            "page": 133
+        },
+        {
+            "title": "Scale-out vs. Scale-up Architecture",
+            "level": 4,
+            "page": 133
+        },
+        {
+            "title": "WHAT IS A HYPERSCALE SYSTEM?",
+            "level": 4,
+            "page": 133
+        },
+        {
+            "title": "SCHEDULING FOR HYPERSCALE SYSTEMS",
+            "level": 4,
+            "page": 133
+        },
+        {
+            "title": "WHAT IS A HIGH-PERFORMANCE SYSTEM?",
+            "level": 4,
+            "page": 133
+        },
+        {
+            "title": "SCHEDULING FOR HIGH-PERFORMANCE SYSTEMS",
+            "level": 4,
+            "page": 134
+        },
+        {
+            "title": "Batch Scheduling Explained",
+            "level": 2,
+            "page": 134
+        },
+        {
+            "title": "WHAT IS TOPOLOGY AWARENESS?",
+            "level": 4,
+            "page": 134
+        },
+        {
+            "title": "Gang Scheduling",
+            "level": 2,
+            "page": 135
+        },
+        {
+            "title": "Automate Job Scheduling with Run:AI",
+            "level": 4,
+            "page": 135
+        },
+        {
+            "title": "MLOps: Do You Have the\nHardware to Make Al Work",
+            "level": 1,
+            "page": 136
+        },
+        {
+            "title": "Five Infrastructure Components Essential to MLOps Success",
+            "level": 2,
+            "page": 136
+        },
+        {
+            "title": "Introduction",
+            "level": 2,
+            "page": 137
+        },
+        {
+            "title": "An Overview of the Modern AI Stack",
+            "level": 4,
+            "page": 137
+        },
+        {
+            "title": "Considerations When Building Your AI Infrastructure Stack",
+            "level": 4,
+            "page": 138
+        },
+        {
+            "title": "Hardware Accelerators for Compute-Intensive Operations",
+            "level": 4,
+            "page": 138
+        },
+        {
+            "title": "Table 2: NVIDIA DGX servers",
+            "level": 4,
+            "page": 139
+        },
+        {
+            "title": "Open Up Bottlenecks with Fast, Elastic Storage",
+            "level": 4,
+            "page": 140
+        },
+        {
+            "title": "Deploy Networks that Accelerate Training",
+            "level": 2,
+            "page": 141
+        },
+        {
+            "title": "Machine Learning Libraries and Toolset",
+            "level": 4,
+            "page": 141
+        },
+        {
+            "title": "Automate and Orchestrate to Optimize Resources and Workflows",
+            "level": 2,
+            "page": 142
+        },
+        {
+            "title": "Conclusion",
+            "level": 2,
+            "page": 143
+        },
+        {
+            "title": "Run:ai Model Streamer:\nPerformance\nBenchmarks",
+            "level": 1,
+            "page": 144
+        },
+        {
+            "title": "Introduction",
+            "level": 2,
+            "page": 147
+        },
+        {
+            "title": "Methodology",
+            "level": 2,
+            "page": 147
+        },
+        {
+            "title": "Model Loading Overview",
+            "level": 4,
+            "page": 147
+        },
+        {
+            "title": "Run:ai Model Streamer",
+            "level": 2,
+            "page": 148
+        },
+        {
+            "title": "How does it work?",
+            "level": 4,
+            "page": 148
+        },
+        {
+            "title": "What are the key features?",
+            "level": 4,
+            "page": 148
+        },
+        {
+            "title": "What is unique about it?",
+            "level": 4,
+            "page": 148
+        },
+        {
+            "title": "HuggingFace (HF) Safetensors Loader",
+            "level": 1,
+            "page": 149
+        },
+        {
+            "title": "How does it work?",
+            "level": 4,
+            "page": 149
+        },
+        {
+            "title": "What are the key features?",
+            "level": 4,
+            "page": 149
+        },
+        {
+            "title": "What is unique about it?",
+            "level": 4,
+            "page": 149
+        },
+        {
+            "title": "Tensorizer",
+            "level": 2,
+            "page": 149
+        },
+        {
+            "title": "How does it work?",
+            "level": 4,
+            "page": 149
+        },
+        {
+            "title": "What are the key features?",
+            "level": 4,
+            "page": 150
+        },
+        {
+            "title": "What is unique about it?",
+            "level": 4,
+            "page": 150
+        },
+        {
+            "title": "Where Loading Meets Inference Engines: Loading Weights with vLLM",
+            "level": 1,
+            "page": 150
+        },
+        {
+            "title": "Experiment Setup",
+            "level": 1,
+            "page": 151
+        },
+        {
+            "title": "Technical Configuration",
+            "level": 4,
+            "page": 151
+        },
+        {
+            "title": "Storage Types",
+            "level": 4,
+            "page": 151
+        },
+        {
+            "title": "Experiment Design",
+            "level": 2,
+            "page": 152
+        },
+        {
+            "title": "Experiment #1: GP3 SSD",
+            "level": 4,
+            "page": 152
+        },
+        {
+            "title": "Experiment #2: IO2 SSD",
+            "level": 4,
+            "page": 152
+        },
+        {
+            "title": "Experiment #3: Amazon S3",
+            "level": 4,
+            "page": 152
+        },
+        {
+            "title": "Experiment #4: vLLM with different loaders'",
+            "level": 4,
+            "page": 152
+        },
+        {
+            "title": "Experiment Results",
+            "level": 1,
+            "page": 153
+        },
+        {
+            "title": "Experiment #1: GP3 SSD",
+            "level": 4,
+            "page": 153
+        },
+        {
+            "title": "Experiment #2: IO2 SSD",
+            "level": 4,
+            "page": 154
+        },
+        {
+            "title": "Cloud Storage Experiments (S3)",
+            "level": 1,
+            "page": 156
+        },
+        {
+            "title": "Experiment #3: S3 Bucket",
+            "level": 4,
+            "page": 156
+        },
+        {
+            "title": "Experiment #4: vLLM with All Loaders",
+            "level": 4,
+            "page": 157
+        },
+        {
+            "title": "Discussion & Conclusion",
+            "level": 2,
+            "page": 158
+        },
+        {
+            "title": "Evenly Distributed Workload Across Threads in S3 Environments",
+            "level": 4,
+            "page": 159
+        },
+        {
+            "title": "Concurrency and Storage Throughput as Key Performance Drivers",
+            "level": 4,
+            "page": 159
+        },
+        {
+            "title": "vLLM Integration and 2x Faster Time to Model Readiness for End Users",
+            "level": 4,
+            "page": 159
+        },
+        {
+            "title": "Future Work",
+            "level": 1,
+            "page": 160
+        },
+        {
+            "title": "About Run:ai",
+            "level": 1,
+            "page": 160
+        },
+        {
+            "title": "Appendix A",
+            "level": 1,
+            "page": 161
+        },
+        {
+            "title": "Appendix B",
+            "level": 1,
+            "page": 161
+        },
+        {
+            "title": "Appendix C",
+            "level": 1,
+            "page": 162
+        },
+        {
+            "title": "Appendix D",
+            "level": 1,
+            "page": 163
+        },
+        {
+            "title": "For IO2 SSD Storage",
+            "level": 4,
+            "page": 163
+        },
+        {
+            "title": "Table of contents",
+            "level": 1,
+            "page": 165
+        },
+        {
+            "title": "Introduction",
+            "level": 2,
+            "page": 166
+        },
+        {
+            "title": "Faster Experimentation",
+            "level": 4,
+            "page": 166
+        },
+        {
+            "title": "Large Batch Sizes",
+            "level": 4,
+            "page": 166
+        },
+        {
+            "title": "Large Models",
+            "level": 4,
+            "page": 166
+        },
+        {
+            "title": "Parallelism Strategies",
+            "level": 2,
+            "page": 167
+        },
+        {
+            "title": "Data Parallelism",
+            "level": 1,
+            "page": 167
+        },
+        {
+            "title": "Implementations:",
+            "level": 4,
+            "page": 167
+        },
+        {
+            "title": "When to consider Data Parallelism",
+            "level": 4,
+            "page": 167
+        },
+        {
+            "title": "Pipeline Parallelism",
+            "level": 1,
+            "page": 168
+        },
+        {
+            "title": "Implementations:",
+            "level": 4,
+            "page": 168
+        },
+        {
+            "title": "When to consider Pipeline Parallelism",
+            "level": 4,
+            "page": 168
+        },
+        {
+            "title": "Parameter Server Paradigm",
+            "level": 2,
+            "page": 169
+        },
+        {
+            "title": "Implementations:",
+            "level": 4,
+            "page": 169
+        },
+        {
+            "title": "When to consider Parameter Server",
+            "level": 4,
+            "page": 169
+        },
+        {
+            "title": "Tensor Parallelism",
+            "level": 2,
+            "page": 169
+        },
+        {
+            "title": "Implementations:",
+            "level": 4,
+            "page": 169
+        },
+        {
+            "title": "Combination of Parallelism Techniques",
+            "level": 1,
+            "page": 170
+        },
+        {
+            "title": "The Zero Redundancy Optimizer (ZeRO)",
+            "level": 2,
+            "page": 170
+        },
+        {
+            "title": "Implementations:",
+            "level": 4,
+            "page": 170
+        },
+        {
+            "title": "Fully Sharded Data Parallel",
+            "level": 2,
+            "page": 170
+        },
+        {
+            "title": "Implementations:",
+            "level": 4,
+            "page": 170
+        },
+        {
+            "title": "Alpa: Automating Inter- and Intra-Operator Parallelism for\nDistributed Deep Learning",
+            "level": 2,
+            "page": 171
+        },
+        {
+            "title": "Implementations:",
+            "level": 4,
+            "page": 171
+        },
+        {
+            "title": "Conclusion",
+            "level": 1,
+            "page": 172
+        },
+        {
+            "title": "References & Further Reads",
+            "level": 2,
+            "page": 172
+        },
+        {
+            "title": "About Run:ai",
+            "level": 1,
+            "page": 172
+        },
+        {
+            "title": "run\n\n![173_image_0.png](173_image_0.png)\n\n\n\n![173_image_1.png](173_image_1.png)\n\n\nVirtualization Software\nfor AI Infrastructure",
+            "level": 1,
+            "page": 173
+        },
+        {
+            "title": "The Challenge",
+            "level": 3,
+            "page": 173
+        },
+        {
+            "title": "Our Solution",
+            "level": 2,
+            "page": 173
+        },
+        {
+            "title": "run :",
+            "level": 1,
+            "page": 174
+        },
+        {
+            "title": "Run:Al Platform",
+            "level": 1,
+            "page": 174
+        },
+        {
+            "title": "Run:Al Scheduling Capabilities within Kubernetes",
+            "level": 2,
+            "page": 175
+        },
+        {
+            "title": "Guaranteed quotas",
+            "level": 4,
+            "page": 175
+        },
+        {
+            "title": "Advanced priorities & policies",
+            "level": 4,
+            "page": 176
+        },
+        {
+            "title": "Fairness scheduling algorithms",
+            "level": 4,
+            "page": 176
+        },
+        {
+            "title": "Consolidation & Bin packing",
+            "level": 4,
+            "page": 176
+        },
+        {
+            "title": "Automatic & dynamic job preemption",
+            "level": 4,
+            "page": 176
+        },
+        {
+            "title": "Run jobs on GPU fractions",
+            "level": 4,
+            "page": 176
+        },
+        {
+            "title": "Efficient management of distributed workloads",
+            "level": 4,
+            "page": 176
+        },
+        {
+            "title": "Scaling Up AI/ML\nwith Kubernetes",
+            "level": 1,
+            "page": 177
+        },
+        {
+            "title": "Kubernetes Architecture for Data Science\nWorkloads",
+            "level": 1,
+            "page": 177
+        },
+        {
+            "title": "Kubernetes Overview",
+            "level": 4,
+            "page": 178
+        },
+        {
+            "title": "Kubernetes Architecture",
+            "level": 4,
+            "page": 178
+        },
+        {
+            "title": "How Kubernetes Addresses Data Science Challenges",
+            "level": 4,
+            "page": 179
+        },
+        {
+            "title": "Considerations for Successful Kubernetes Architecture for AI Workloads",
+            "level": 2,
+            "page": 180
+        },
+        {
+            "title": "KUBERNETES MONITORING",
+            "level": 4,
+            "page": 180
+        },
+        {
+            "title": "The Challenges of Scheduling AI Workloads on\nKubernetes",
+            "level": 1,
+            "page": 181
+        },
+        {
+            "title": "Kubernetes Scheduling Basics",
+            "level": 4,
+            "page": 181
+        },
+        {
+            "title": "WHAT'S MISSING?",
+            "level": 4,
+            "page": 181
+        },
+        {
+            "title": "Scale-out vs. Scale-up Architecture",
+            "level": 4,
+            "page": 181
+        },
+        {
+            "title": "WHAT IS A HYPERSCALE SYSTEM?",
+            "level": 4,
+            "page": 181
+        },
+        {
+            "title": "SCHEDULING FOR HYPERSCALE SYSTEMS",
+            "level": 4,
+            "page": 181
+        },
+        {
+            "title": "WHAT IS A HIGH-PERFORMANCE SYSTEM?",
+            "level": 4,
+            "page": 181
+        },
+        {
+            "title": "SCHEDULING FOR HIGH-PERFORMANCE SYSTEMS",
+            "level": 4,
+            "page": 182
+        },
+        {
+            "title": "Batch Scheduling Explained",
+            "level": 2,
+            "page": 182
+        },
+        {
+            "title": "WHAT IS TOPOLOGY AWARENESS?",
+            "level": 4,
+            "page": 182
+        },
+        {
+            "title": "Gang Scheduling",
+            "level": 2,
+            "page": 183
+        },
+        {
+            "title": "Automate Job Scheduling with Run:AI",
+            "level": 4,
+            "page": 183
+        },
+        {
+            "title": "Introduction",
+            "level": 2,
+            "page": 185
+        },
+        {
+            "title": "How do we use it?",
+            "level": 2,
+            "page": 186
+        },
+        {
+            "title": "3 )",
+            "level": 4,
+            "page": 187
+        },
+        {
+            "title": "Create a namespace for each user",
+            "level": 3,
+            "page": 187
+        },
+        {
+            "title": "About Run:ai",
+            "level": 2,
+            "page": 191
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 193
+        },
+        {
+            "title": "Table of contents",
+            "level": 1,
+            "page": 194
+        },
+        {
+            "title": "Introduction",
+            "level": 1,
+            "page": 195
+        },
+        {
+            "title": "Figure 1:  Architecture of servers and engines",
+            "level": 1,
+            "page": 196
+        },
+        {
+            "title": "Engines",
+            "level": 1,
+            "page": 196
+        },
+        {
+            "title": "Servers",
+            "level": 1,
+            "page": 196
+        },
+        {
+            "title": "Components of LLM serving",
+            "level": 1,
+            "page": 196
+        },
+        {
+            "title": "Memory Manaqement of KV cache",
+            "level": 1,
+            "page": 197
+        },
+        {
+            "title": "Preemption Mechanism",
+            "level": 1,
+            "page": 197
+        },
+        {
+            "title": "Reservation",
+            "level": 1,
+            "page": 197
+        },
+        {
+            "title": "Frameworks",
+            "level": 1,
+            "page": 198
+        },
+        {
+            "title": "Engines",
+            "level": 1,
+            "page": 198
+        },
+        {
+            "title": "NVIDIA TensorRT-LLM (TRT-LLM)",
+            "level": 1,
+            "page": 198
+        },
+        {
+            "title": "Servers",
+            "level": 1,
+            "page": 199
+        },
+        {
+            "title": "RayLLM",
+            "level": 1,
+            "page": 199
+        },
+        {
+            "title": "NVIDIA Triton Inference Server with TensorRT-LLM",
+            "level": 1,
+            "page": 199
+        },
+        {
+            "title": "Text Generation Inference (TGI)",
+            "level": 1,
+            "page": 199
+        },
+        {
+            "title": "Table 2: Comparison of the engine and server capabilities",
+            "level": 1,
+            "page": 199
+        },
+        {
+            "title": "Metrics for LLM Serving",
+            "level": 1,
+            "page": 200
+        },
+        {
+            "title": "Throughput",
+            "level": 1,
+            "page": 200
+        },
+        {
+            "title": "Latency",
+            "level": 1,
+            "page": 200
+        },
+        {
+            "title": "Experiment Setup",
+            "level": 1,
+            "page": 200
+        },
+        {
+            "title": "Throughput Dynamics with QPS and Batch Size",
+            "level": 1,
+            "page": 200
+        },
+        {
+            "title": "Experiment #5",
+            "level": 1,
+            "page": 200
+        },
+        {
+            "title": "Real-Life Scenario: Impact of Model Size Increase & Variant Input/Output",
+            "level": 1,
+            "page": 200
+        },
+        {
+            "title": "Experiment Results",
+            "level": 1,
+            "page": 201
+        },
+        {
+            "title": "Throughput Dynamics with QPS and Batch Size\nExperiment #1",
+            "level": 1,
+            "page": 201
+        },
+        {
+            "title": "Experiment #2",
+            "level": 1,
+            "page": 203
+        },
+        {
+            "title": "Preemption Mechanisms Analysis",
+            "level": 1,
+            "page": 203
+        },
+        {
+            "title": "Experiment Setting",
+            "level": 1,
+            "page": 203
+        },
+        {
+            "title": "Benchmarking Report",
+            "level": 1,
+            "page": 204
+        },
+        {
+            "title": "Benchmarking Report",
+            "level": 1,
+            "page": 208
+        },
+        {
+            "title": "run:",
+            "level": 1,
+            "page": 209
+        },
+        {
+            "title": "Benchmarking Report",
+            "level": 1,
+            "page": 209
+        },
+        {
+            "title": "Discussion & Conclusion",
+            "level": 1,
+            "page": 210
+        },
+        {
+            "title": "Memory Allocation: A Critical Consideration",
+            "level": 1,
+            "page": 210
+        },
+        {
+            "title": "Preemptions: A Strategic Trade-off",
+            "level": 1,
+            "page": 210
+        },
+        {
+            "title": "Sequence Length Insight for Specific Engines",
+            "level": 1,
+            "page": 210
+        },
+        {
+            "title": "Model Size's Influence on Throughput",
+            "level": 1,
+            "page": 210
+        },
+        {
+            "title": "Impact of server selection",
+            "level": 1,
+            "page": 211
+        },
+        {
+            "title": "Future Work",
+            "level": 1,
+            "page": 211
+        },
+        {
+            "title": "GPU Parallelism on a single node (Distributed Serving Techniques)",
+            "level": 1,
+            "page": 211
+        },
+        {
+            "title": "Multi-Node Setting",
+            "level": 1,
+            "page": 211
+        },
+        {
+            "title": "Deeper Dive into Latency",
+            "level": 1,
+            "page": 211
+        },
+        {
+            "title": "Engine-Server Combination Discovery",
+            "level": 1,
+            "page": 211
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 212
+        },
+        {
+            "title": "Appendix",
+            "level": 1,
+            "page": 212
+        },
+        {
+            "title": "Abstract",
+            "level": 1,
+            "page": 214
+        },
+        {
+            "title": "Table of contents",
+            "level": 1,
+            "page": 215
+        },
+        {
+            "title": "Introduction",
+            "level": 1,
+            "page": 216
+        },
+        {
+            "title": "Figure 1:  Architecture of servers and engines",
+            "level": 1,
+            "page": 217
+        },
+        {
+            "title": "Engines",
+            "level": 1,
+            "page": 217
+        },
+        {
+            "title": "Servers",
+            "level": 1,
+            "page": 217
+        },
+        {
+            "title": "Components of LLM serving",
+            "level": 1,
+            "page": 217
+        },
+        {
+            "title": "Memory Manaqement of KV cache",
+            "level": 1,
+            "page": 218
+        },
+        {
+            "title": "Preemption Mechanism",
+            "level": 1,
+            "page": 218
+        },
+        {
+            "title": "Reservation",
+            "level": 1,
+            "page": 218
+        },
+        {
+            "title": "Frameworks",
+            "level": 1,
+            "page": 219
+        },
+        {
+            "title": "Engines",
+            "level": 1,
+            "page": 219
+        },
+        {
+            "title": "NVIDIA TensorRT-LLM (TRT-LLM)",
+            "level": 1,
+            "page": 219
+        },
+        {
+            "title": "Servers",
+            "level": 1,
+            "page": 220
+        },
+        {
+            "title": "RayLLM",
+            "level": 1,
+            "page": 220
+        },
+        {
+            "title": "NVIDIA Triton Inference Server with TensorRT-LLM",
+            "level": 1,
+            "page": 220
+        },
+        {
+            "title": "Text Generation Inference (TGI)",
+            "level": 1,
+            "page": 220
+        },
+        {
+            "title": "Table 2: Comparison of the engine and server capabilities",
+            "level": 1,
+            "page": 220
+        },
+        {
+            "title": "Metrics for LLM Serving",
+            "level": 1,
+            "page": 221
+        },
+        {
+            "title": "Throughput",
+            "level": 1,
+            "page": 221
+        },
+        {
+            "title": "Latency",
+            "level": 1,
+            "page": 221
+        },
+        {
+            "title": "Experiment Setup",
+            "level": 1,
+            "page": 221
+        },
+        {
+            "title": "Throughput Dynamics with QPS and Batch Size",
+            "level": 1,
+            "page": 221
+        },
+        {
+            "title": "Experiment #5",
+            "level": 1,
+            "page": 221
+        },
+        {
+            "title": "Real-Life Scenario: Impact of Model Size Increase & Variant Input/Output",
+            "level": 1,
+            "page": 221
+        },
+        {
+            "title": "Experiment Results",
+            "level": 1,
+            "page": 222
+        },
+        {
+            "title": "Throughput Dynamics with QPS and Batch Size\nExperiment #1",
+            "level": 1,
+            "page": 222
+        },
+        {
+            "title": "Experiment #2",
+            "level": 1,
+            "page": 224
+        },
+        {
+            "title": "Preemption Mechanisms Analysis",
+            "level": 1,
+            "page": 224
+        },
+        {
+            "title": "Experiment Setting",
+            "level": 1,
+            "page": 224
+        },
+        {
+            "title": "Benchmarking Report",
+            "level": 1,
+            "page": 225
+        },
+        {
+            "title": "Benchmarking Report",
+            "level": 1,
+            "page": 229
+        },
+        {
+            "title": "run:",
+            "level": 1,
+            "page": 230
+        },
+        {
+            "title": "Benchmarking Report",
+            "level": 1,
+            "page": 230
+        },
+        {
+            "title": "Discussion & Conclusion",
+            "level": 1,
+            "page": 231
+        },
+        {
+            "title": "Memory Allocation: A Critical Consideration",
+            "level": 1,
+            "page": 231
+        },
+        {
+            "title": "Preemptions: A Strategic Trade-off",
+            "level": 1,
+            "page": 231
+        },
+        {
+            "title": "Sequence Length Insight for Specific Engines",
+            "level": 1,
+            "page": 231
+        },
+        {
+            "title": "Model Size's Influence on Throughput",
+            "level": 1,
+            "page": 231
+        },
+        {
+            "title": "Impact of server selection",
+            "level": 1,
+            "page": 232
+        },
+        {
+            "title": "Future Work",
+            "level": 1,
+            "page": 232
+        },
+        {
+            "title": "GPU Parallelism on a single node (Distributed Serving Techniques)",
+            "level": 1,
+            "page": 232
+        },
+        {
+            "title": "Multi-Node Setting",
+            "level": 1,
+            "page": 232
+        },
+        {
+            "title": "Deeper Dive into Latency",
+            "level": 1,
+            "page": 232
+        },
+        {
+            "title": "Engine-Server Combination Discovery",
+            "level": 1,
+            "page": 232
+        },
+        {
+            "title": "References",
+            "level": 1,
+            "page": 233
+        },
+        {
+            "title": "Appendix",
+            "level": 1,
+            "page": 233
+        },
+        {
+            "title": "Table of contents",
+            "level": 1,
+            "page": 235
+        },
+        {
+            "title": "4 Reasons Slurm Underperforms when Tackling\nDeep-Learning Workloads",
+            "level": 1,
+            "page": 236
+        },
+        {
+            "title": "What Is Slurm Used For in Deep Learning?",
+            "level": 2,
+            "page": 236
+        },
+        {
+            "title": "Why Slurm Falls Short for Deep Learning",
+            "level": 2,
+            "page": 237
+        },
+        {
+            "title": ") Slurm's Static Allocation Model Doesn't Fit the Data Science Paradigm",
+            "level": 4,
+            "page": 237
+        },
+        {
+            "title": "Slurm Is Complex and Difficult to Learn",
+            "level": 4,
+            "page": 237
+        },
+        {
+            "title": "3  DL and ML Are Increasingly Coupled with the Cloud-Native Ecosystem",
+            "level": 4,
+            "page": 238
+        },
+        {
+            "title": ") Slurm Was Not Built for Inference",
+            "level": 4,
+            "page": 238
+        },
+        {
+            "title": "Run:Al – A Solution Built for Deep Learning",
+            "level": 1,
+            "page": 239
+        },
+        {
+            "title": "About Run:ai",
+            "level": 1,
+            "page": 239
+        },
+        {
+            "title": "The Leader In AI\n\n![240_image_0.png](240_image_0.png)\n\n\nInfrastructure Mangement",
+            "level": 1,
+            "page": 240
+        },
+        {
+            "title": "Key Benefits",
+            "level": 2,
+            "page": 240
+        },
+        {
+            "title": "NVIDIA DGX  Certified",
+            "level": 4,
+            "page": 240
+        },
+        {
+            "title": "Infrastructure",
+            "level": 2,
+            "page": 240
+        },
+        {
+            "title": "Solution - Al Infrastructure Management\n\n![241_image_0.png](241_image_0.png)\n\n",
+            "level": 2,
+            "page": 241
+        },
+        {
+            "title": "( >",
+            "level": 4,
+            "page": 241
+        },
+        {
+            "title": " Al Lifecycle Integration",
+            "level": 4,
+            "page": 241
+        },
+        {
+            "title": "Resource Pooling",
+            "level": 4,
+            "page": 241
+        },
+        {
+            "title": "( > )",
+            "level": 4,
+            "page": 241
+        },
+        {
+            "title": "Policy Engine",
+            "level": 4,
+            "page": 241
+        },
+        {
+            "title": "( > )",
+            "level": 4,
+            "page": 241
+        },
+        {
+            "title": " Al Workload Orchestration",
+            "level": 4,
+            "page": 241
+        },
+        {
+            "title": "( > ) GPU Fractioning",
+            "level": 4,
+            "page": 241
+        },
+        {
+            "title": "The Run:ai Platform",
+            "level": 2,
+            "page": 242
+        },
+        {
+            "title": "Key Results",
+            "level": 2,
+            "page": 242
+        },
+        {
+            "title": "Solution - Al Infrastructure Management\n\n![242_image_0.png](242_image_0.png)\n\n\n\n![242_image_1.png](242_image_1.png)\n\n\n\n![242_image_2.png](242_image_2.png)\n\n",
+            "level": 1,
+            "page": 242
+        },
+        {
+            "title": "Run:ai Cluster Engine - Al Workload Orchestration and GPU Fractioning",
+            "level": 4,
+            "page": 242
+        },
+        {
+            "title": "Run:ai Open Architecture - API and Ecosystem",
+            "level": 4,
+            "page": 242
+        },
+        {
+            "title": "About Run:ai",
+            "level": 2,
+            "page": 242
+        },
+        {
+            "title": "Challenge",
+            "level": 4,
+            "page": 244
+        },
+        {
+            "title": "Solution",
+            "level": 4,
+            "page": 244
+        },
+        {
+            "title": "Key features",
+            "level": 4,
+            "page": 244
+        },
+        {
+            "title": "Control and visibility",
+            "level": 4,
+            "page": 244
+        },
+        {
+            "title": "About Run:Al",
+            "level": 4,
+            "page": 245
+        },
+        {
+            "title": "About NetApp",
+            "level": 4,
+            "page": 245
+        },
+        {
+            "title": "FI NetApp",
+            "level": 1,
+            "page": 245
+        },
+        {
+            "title": "Table of contents",
+            "level": 1,
+            "page": 247
+        },
+        {
+            "title": "Introduction",
+            "level": 2,
+            "page": 248
+        },
+        {
+            "title": "The GPU shortage: How did we get here?",
+            "level": 2,
+            "page": 248
+        },
+        {
+            "title": "Day-to-day challenges for data scientists",
+            "level": 2,
+            "page": 249
+        },
+        {
+            "title": "Scaling high-end, interconnected GPUs",
+            "level": 4,
+            "page": 249
+        },
+        {
+            "title": "Availability during peak hours",
+            "level": 4,
+            "page": 249
+        },
+        {
+            "title": "Tips and tricks for mitigating the effects of the shortage",
+            "level": 1,
+            "page": 250
+        },
+        {
+            "title": "Reserve resources",
+            "level": 4,
+            "page": 250
+        },
+        {
+            "title": "Switch to previous-gen GPUs or to GPUs specialized for inference",
+            "level": 4,
+            "page": 250
+        },
+        {
+            "title": "Maximize the resources you DO have",
+            "level": 4,
+            "page": 250
+        },
+        {
+            "title": "The bottom line",
+            "level": 1,
+            "page": 251
+        },
+        {
+            "title": "About Run:ai",
+            "level": 1,
+            "page": 251
+        },
+        {
+            "title": "Table of contents",
+            "level": 1,
+            "page": 253
+        },
+        {
+            "title": "Introduction",
+            "level": 2,
+            "page": 254
+        },
+        {
+            "title": "The advantages at each stage",
+            "level": 2,
+            "page": 255
+        },
+        {
+            "title": "Model pre-training",
+            "level": 4,
+            "page": 255
+        },
+        {
+            "title": "Model pre-training",
+            "level": 4,
+            "page": 255
+        },
+        {
+            "title": "Model deployment",
+            "level": 4,
+            "page": 256
+        },
+        {
+            "title": "Prompt engineering",
+            "level": 4,
+            "page": 256
+        },
+        {
+            "title": "Security",
+            "level": 2,
+            "page": 256
+        },
+        {
+            "title": "Real-world success stories",
+            "level": 2,
+            "page": 257
+        }
+    ]
+}
